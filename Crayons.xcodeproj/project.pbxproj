@@ -15,6 +15,7 @@
 		571A1ACF20AB5DCA00624059 /* CrayonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571A1ACE20AB5DCA00624059 /* CrayonsTests.m */; };
 		571A1ADB20AB74DA00624059 /* Crayon.m in Sources */ = {isa = PBXBuildFile; fileRef = 571A1ADA20AB74DA00624059 /* Crayon.m */; };
 		57D486A820ADE9560052E870 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D486A720ADE9560052E870 /* ViewController.m */; };
+		8168C53220AF6E370039125F /* CrayonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8168C53120AF6E370039125F /* CrayonCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		571A1ADA20AB74DA00624059 /* Crayon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crayon.m; sourceTree = "<group>"; };
 		57D486A620ADE9560052E870 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		57D486A720ADE9560052E870 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8168C53020AF6E1B0039125F /* CrayonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrayonCell.h; sourceTree = "<group>"; };
+		8168C53120AF6E370039125F /* CrayonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrayonCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 			children = (
 				57D486A620ADE9560052E870 /* ViewController.h */,
 				57D486A720ADE9560052E870 /* ViewController.m */,
+				8168C53020AF6E1B0039125F /* CrayonCell.h */,
+				8168C53120AF6E370039125F /* CrayonCell.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				571A1AC520AB5DCA00624059 /* main.m in Sources */,
+				8168C53220AF6E370039125F /* CrayonCell.m in Sources */,
 				571A1AB720AB5DC900624059 /* AppDelegate.m in Sources */,
 				57D486A820ADE9560052E870 /* ViewController.m in Sources */,
 				571A1ADB20AB74DA00624059 /* Crayon.m in Sources */,
